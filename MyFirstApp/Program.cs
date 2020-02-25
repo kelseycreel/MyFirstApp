@@ -13,25 +13,25 @@ namespace MyFirstApp
             Console.WriteLine(userEntry);
             Console.ReadLine();
 
-            //if (userEntry == "Nathan")
-            //{
-            //    Console.WriteLine("You think so.");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("You are the most.");
-            //}
+            if (userEntry == "Nathan")
+            {
+                Console.WriteLine("You think so.");
+            }
+            else
+            {
+                Console.WriteLine("You are the most.");
+            }
 
-            //var i = 0;
-            //while (i < 10)
-            //{
-            //    Console.WriteLine($"Current value of i is {i++}");
-            //}
+            var i = 0;
+            while (i < 10)
+            {
+                Console.WriteLine($"Current value of i is {i++}");
+            }
 
-            //for (var i = 0; i < 10; i++)
-            //{
-            //    Console.WriteLine($"Current value of i is {i}");
-            //}
+            for (var i = 0; i < 10; i++)
+            {
+                Console.WriteLine($"Current value of i is {i}");
+            }
 
             foreach (var currentChar in userEntry)
             {
